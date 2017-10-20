@@ -6,7 +6,7 @@ dependencies {
         compile "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client"
     } else {
         compile "org.springframework.cloud:spring-cloud-starter-eureka"
-        compile "org.springframework.cloud:spring-cloud-eureka-server"
+        compile "org.springframework.cloud:spring-cloud-starter-eureka-server"
     }
 }
 
